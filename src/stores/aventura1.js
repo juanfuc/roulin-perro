@@ -1280,13 +1280,15 @@ const defaultStyling =
   box-sizing: border-box;
   margin: auto;
   max-width: 900px;
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   background: #fff;
 }
 
 .storydiv {
   box-sizing: border-box;
-  border: solid black 1px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08); 
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   width: 100%;
   display: flex;
   padding: 1em;
