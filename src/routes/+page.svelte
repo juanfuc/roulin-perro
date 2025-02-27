@@ -7,7 +7,8 @@
   let showFr1865 = false;
 
   onMount(async () => {
-    const response = await fetch("/salida.html");
+    const basePath = import.meta.env.MODE === "development" ? "" : "/roulin-perro"; 
+    const response = await fetch(`${basePath}/salida.html`);
     htmlContent = await response.text();
   });
 </script>

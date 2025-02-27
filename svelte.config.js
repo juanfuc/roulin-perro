@@ -1,19 +1,19 @@
 import adapter from '@sveltejs/adapter-static';
 
-/** @type {import('@sveltejs/kit').Config} */
 const config = {
-	kit: {
-		paths: {
-			base: "/roulin-perro"
-		},
-		adapter: adapter({
-			pages: "docs",
-			precompress: false,
-			strict: true,
-			hydrate: true
-		})
-	}
+  kit: {
+    adapter: adapter({
+      pages: "docs",
+      assets: "docs",
+      fallback: null
+    }),
+    paths: {
+      base: process.env.NODE_ENV === "production" ? "/roulin-perro" : ""
+    },
+    prerender: {
+      entries: ["*"]
+    }
+  }
 };
 
 export default config;
-
