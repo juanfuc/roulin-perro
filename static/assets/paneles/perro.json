@@ -1,0 +1,60 @@
+{
+  "start": {
+    "titulo": "El perro en las acuarelas de Roulin",
+    "imagen": "assets/imgs/199.jpg",
+    "meta": 192,
+    "text": "Algunas de las acuarelas de autoría de Roulin, donadas a la Biblioteca Luis Ángel Arango en 2003, pueden interpretarse en relación con el apartado acerca del perro de la publicación de Roulin sobre los cambios de los animales domésticos en el Nuevo Mundo. La acuarela 'Bords de la Magdelaine. Ménage d'une famille de pêcheur' de 1823 parece ser una ilustración del texto en el que se menciona que los 'perros de clima cálido' que viven con los pescadores en las orillas del río Magdalena, tienen una raza deteriorada debido a la falta de alimento y condiciones excepcionales que obligan a los animales a regresar a estados salvajes. En las láminas de Roulin, como 'Bords de la Magdelaine', 'Place de St. Victorin à Bogotá' o 'Entrée du marché de Honda', se pueden ver perros conviviendo con humanos en diferentes climas y regiones. Esto nos permite ver cómo los perros han cambiado y se han adaptado a diferentes entornos y situaciones, y cómo han sido afectados por las comunidades en las que viven. En última instancia, las acuarelas de Roulin, junto con su memoria escrita, ofrecen ideas valiosas sobre los cambios en los animales domésticos y su relación con los climas y las comunidades en el Nuevo Mundo.",
+    "areas": [
+      { "x": 473, "y": 205, "w": 348, "h": 249, "btn": "", "tooltip": "", "scene": "perro1" },
+      { "x": 305, "y": 569, "w": 338, "h": 304, "btn": "", "tooltip": "", "scene": "roulinPlaza" },
+      { "x": 368, "y": 1006, "w": 343, "h": 276, "btn": "", "tooltip": "", "scene": "roulinMayor" },
+      { "x": 858, "y": 982, "w": 338, "h": 205, "btn": "", "tooltip": "", "scene": "perro4" },
+      { "x": 1334, "y": 983, "w": 388, "h": 257, "btn": "", "tooltip": "", "scene": "roulinMayor" },
+      { "x": 1327, "y": 610, "w": 385, "h": 252, "btn": "", "tooltip": "", "scene": "perro6" },
+      { "x": 1344, "y": 261, "w": 361, "h": 257, "btn": "", "tooltip": "", "scene": "perro7" },
+      { "x": 802, "y": 587, "w": 499, "h": 398, "btn": "", "tooltip": "", "scene": "bordes" }
+    ]
+  },
+  "bordes": { "meta": 146, "imagen":"assets/imgs/153.jpg", "options": [
+
+    { "btn": "Volver a los 'perros de Roulin'", "scene": "start" }
+  ] }, 
+  "perro1": { "meta": 156, "imagen":"assets/imgs/163.jpg", "options": [
+
+    { "btn": "Volver a los 'perros de Roulin'", "scene": "start" }
+  ] }, 
+  "perro7": { "meta": 148, "imagen":"assets/imgs/155.jpg", "options": [
+
+    { "btn": "Volver a los 'perros de Roulin'", "scene": "start" }
+  ] }, 
+  "perro4": { "meta": 149, "imagen":"assets/imgs/156.jpg", "options": [
+
+    { "btn": "Volver a los 'perros de Roulin'", "scene": "start" }
+  ] }, 
+  "perro6": { "meta": 159, "imagen":"assets/imgs/166.jpg", "options": [
+
+    { "btn": "Volver a los 'perros de Roulin'", "scene": "start" }
+  ] },
+  
+  "roulinMayor": {
+    "meta": 153,
+    "imagen":"assets/imgs/160.jpg",
+    "options": [
+      { "btn": "Volver a los 'perros de Roulin'", "scene": "start" }
+    ],
+    "areas": [
+      { "x": 133, "y": 850, "w": 169, "h": 139, "btn": "", "tooltip": "", "scene": "start" },
+      { "x": 1123, "y": 639, "w": 157, "h": 117, "btn": "", "tooltip": "", "scene": "start" }
+    ]  
+  },
+  "roulinPlaza": {
+    "image": "assets/imgs/161.jpg",
+    "meta": 154,
+    "options": [
+      { "btn": "Volver a los 'perros de Roulin'", "scene": "start" }
+    ],
+    "areas": [
+          { "x": 1075, "y": 838, "w": 258, "h": 204, "btn": "", "tooltip": "", "escena": "start" } 
+    ]
+  }
+}
