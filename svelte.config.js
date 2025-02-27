@@ -4,7 +4,7 @@ import adapter from '@sveltejs/adapter-static';
 const config = {
 	kit: {
 		paths: {
-			base: "/roulin-perro"
+			base: "/el-atlas-del-carguero"
 		},
 		adapter: adapter({
 			pages: "docs",
@@ -16,3 +16,4 @@ const config = {
 };
 
 export default config;
+
