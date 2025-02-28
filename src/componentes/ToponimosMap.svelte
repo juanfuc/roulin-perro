@@ -15,10 +15,11 @@
         const L = await import("leaflet");
         import("leaflet/dist/leaflet.css");
 
-    L.Icon.Default.mergeOptions({
-      iconUrl: import.meta.env.BASE_URL + "marker-icon.png",
-      shadowUrl: import.meta.env.BASE_URL + "marker-shadow.png"
-    });
+        L.Icon.Default.mergeOptions({
+  iconUrl: import.meta.env.BASE_URL + "marker-icon.png",
+  shadowUrl: import.meta.env.BASE_URL + "marker-shadow.png"
+});
+
   
         // Cargar datos desde el CSV
         const response = await fetch(csvUrl);
