@@ -1278,8 +1278,9 @@ const defaultStyling =
 
 `#storygeneraldiv {
   box-sizing: border-box;
+  border-radius: 10px;
   margin: auto;
-  max-width: 900px;
+  max-width: 1000px;
   font-family: 'Inter', sans-serif;
   background: #fff;
 }
@@ -1287,7 +1288,6 @@ const defaultStyling =
 .storydiv {
   box-sizing: border-box;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08); 
-  border-radius: 10px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   width: 100%;
   display: flex;
