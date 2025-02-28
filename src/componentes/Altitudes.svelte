@@ -14,7 +14,8 @@
     let loading = true;
   
     // Ruta donde están almacenadas las imágenes
-    const imgPath = "/assets/imgs/"; // Asegúrate de que este path es correcto
+    const imgPath = import.meta.env.BASE_URL + "assets/imgs/";
+ 
   
     // 🔹 Cargar datos de los CSV en Google Sheets
     onMount(async () => {
